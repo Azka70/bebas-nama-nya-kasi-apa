@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fakhri Azka Ritonga | Informatics Engineering Student</title>
+  <meta name="description" content="Portofolio Fakhri Azka Ritonga, mahasiswa S1 Teknik Informatika Universitas Negeri Surabaya angkatan 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=JetBrains+Mono&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Ikon SVG (sprite). Dipakai lewat <use href="#nama-ikon"> -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m16 18 6-6-6-6M8 6l-6 6 6 6"/></symbol>
+  <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></symbol>
+  <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 0 18c1.5 0 2-1 1.5-2s0-2 1.5-2h2a4 4 0 0 0 4-4c0-5-4.500-10-9-10z"/></symbol>
+  <symbol id="i-bolt" viewBox="0 0 24 24"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></symbol>
+  <symbol id="i-cpu" viewBox="0 0 24 24"><rect x="5" y="5" width="14" height="14" rx="2"/><path d="M9 1v4M15 1v4M9 19v4M15 19v4M1 9h4M1 15h4M19 9h4M19 15h4"/></symbol>
+  <symbol id="i-branch" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="18" cy="8" r="2"/><path d="M6 8v8M18 10v1a4 4 0 0 1-4 4H8"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 6 10-6"/></symbol>
+  <symbol id="i-in" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 11v5M8 8v.01M12 16v-5M12 13a2.500 2.500 0 0 1 5 0v3"/></symbol>
+  <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></symbol>
+  <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0zM7 6H3v1a4 4 0 0 0 4 4M17 6h4v1a4 4 0 0 1-4 4"/></symbol>
+  <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 22h4M12 2a7 7 0 0 0-4 12.700V16h8v-1.300A7 7 0 0 0 12 2z"/></symbol>
+  <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.600 7.100L3 21l1.900-5.400A8 8 0 1 1 21 12z"/></symbol>
+  <symbol id="i-team" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.500"/><path d="M2 21a7 7 0 0 1 14 0M16 4.500a3.500 3.500 0 0 1 0 7M22 21a7 7 0 0 0-4.500-6.500"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m8 12 3 3 5-6"/></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M21 12a9 9 0 0 1-15.500 6.200M3 12A9 9 0 0 1 18.500 5.800M18 2v4h-4M6 22v-4h4"/></symbol>
+  <symbol id="i-puzzle" viewBox="0 0 24 24"><path d="M4 8h4a2 2 0 1 1 4 0h4v4a2 2 0 1 1 0 4v4H4z"/></symbol>
+  <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19V5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0 0 4h14"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.900 4.900l1.400 1.400M17.700 17.700l1.400 1.400M2 12h2M20 12h2M4.900 19.100l1.400-1.400M17.700 6.300l1.400-1.400"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 22s7-6.500 7-12a7 7 0 0 0-14 0c0 5.500 7 12 7 12z"/><circle cx="12" cy="10" r="2.500"/></symbol>
+  <symbol id="i-grad" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5zM6 11.500V16c3 2.500 9 2.500 12 0v-4.500"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m0 0-4-4m4 4 4-4M4 21h16"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+</svg>
+
+<a class="skip" href="#main">Lewati ke konten utama</a>
+
+<header class="nav" id="top">
+  <div class="wrap nav-in">
+    <a class="logo" href="#home" aria-label="Fakhri Azka Ritonga, ke beranda">FAR</a>
+    <nav id="menu" aria-label="Navigasi utama">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#skills">What I Can Do</a>
+      <a href="#achievement">Achievement</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-tools">
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Ganti mode terang/gelap">
+        <svg class="ic"><use href="#i-sun"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menuBtn" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="menu">
+        <svg class="ic"><use href="#i-menu"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<!-- ================= HERO ================= -->
+<section class="hero" id="home">
+  <div class="wrap hero-in">
+    <div class="hero-text">
+      <p class="hello">Hello, I'm</p>
+      <h1>Fakhri Azka Ritonga</h1>
+      <p class="role">Informatics Engineering Student</p>
+      <p class="uni">Universitas Negeri Surabaya</p>
+      <p class="lead">An aspiring developer with an interest in technology, programming, and web development. Currently learning and developing technical skills through practice and personal projects.</p>
+      <div class="actions">
+        <a class="btn primary" href="#skills">Explore My Portfolio</a>
+        <a class="btn" href="assets/CV-Fakhri-Azka-Ritonga.pdf" download>
+          <svg class="ic"><use href="#i-download"/></svg>Download CV</a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <!-- Ganti assets/profile.jpg dengan foto Anda. Jika file belum ada, tampil inisial "FAR". -->
+      <div class="avatar"><span>FAR</span><img src="assets/profile.jpg" alt="" onerror="this.remove()"></div>
+      <pre class="code"><code><span class="l" style="--d:0"><i class="k">const</i> fakhri = {</span>
+<span class="l" style="--d:1">  name: <i class="s">"Fakhri Azka Ritonga"</i>,</span>
+<span class="l" style="--d:2">  status: <i class="s">"Informatics Engineering Student"</i>,</span>
+<span class="l" style="--d:3">  university: <i class="s">"UNESA"</i>,</span>
+<span class="l" style="--d:4">  learning: [<i class="s">"HTML"</i>, <i class="s">"CSS"</i>, <i class="s">"JavaScript"</i>,</span>
+<span class="l" style="--d:5">             <i class="s">"C++"</i>, <i class="s">"GitHub"</i>],</span>
+<span class="l" style="--d:6">  interest: <i class="s">"web development"</i></span>
+<span class="l" style="--d:7">};</span></code></pre>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section class="sec" id="about" aria-labelledby="about-t">
+  <div class="wrap">
+    <h2 id="about-t" class="rv">About Me</h2>
+    <div class="about-grid">
+      <div class="rv">
+        <p class="big">Perkenalkan, saya Fakhri Azka Ritonga, mahasiswa baru Program Studi S1 Teknik Informatika, Universitas Negeri Surabaya. Saya memiliki ketertarikan pada dunia teknologi, pemrograman, dan pengembangan website. Saat ini saya sedang mengembangkan kemampuan teknis melalui proses belajar dan latihan mandiri. Saya juga ingin meningkatkan kemampuan berpikir logis, komunikasi, kerja sama tim, serta kemampuan menyelesaikan masalah.</p>
+
+        <h3 class="sub">Pendidikan</h3>
+        <ol class="timeline">
+          <li>
+            <svg class="ic"><use href="#i-grad"/></svg>
+            <div><strong>Universitas Negeri Surabaya</strong>
+            <span>S1 Teknik Informatika — 2026–2030 (perkiraan)</span></div>
+          </li>
+          <li>
+            <svg class="ic"><use href="#i-book"/></svg>
+            <div><strong>SMAN 1 Sanggau</strong>
+            <span>Jurusan Ilmu Pengetahuan Alam, nilai akhir 87,35/100</span></div>
+          </li>
+        </ol>
+      </div>
+
+      <aside class="card profile rv" aria-label="Informasi profil">
+        <dl>
+          <div><dt>Nama lengkap</dt><dd>Fakhri Azka Ritonga</dd></div>
+          <div><dt>NIM</dt><dd>26051204196</dd></div>
+          <div><dt>Program Studi</dt><dd>S1 Teknik Informatika</dd></div>
+          <div><dt>Universitas</dt><dd>Universitas Negeri Surabaya</dd></div>
+          <div><dt>Angkatan</dt><dd>2026</dd></div>
+          <div><dt>Lokasi</dt><dd><svg class="ic"><use href="#i-pin"/></svg>Surabaya, Jawa Timur</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ================= WHAT I CAN DO ================= -->
+<section class="sec alt" id="skills" aria-labelledby="skills-t">
+  <div class="wrap">
+    <h2 id="skills-t" class="rv">What I Can Do</h2>
+
+    <h3 class="sub rv">Hard Skills</h3>
+    <div class="grid hard">
+      <article class="card rv"><svg class="ic big-ic"><use href="#i-globe"/></svg><h4>HTML</h4><p>Memahami dasar struktur halaman website.</p><span class="tag">Basic</span></article>
+      <article class="card rv"><svg class="ic big-ic"><use href="#i-palette"/></svg><h4>CSS</h4><p>Memahami dasar desain, styling, dan layout website.</p><span class="tag">Basic</span></article>
+      <article class="card rv"><svg class="ic big-ic"><use href="#i-bolt"/></svg><h4>JavaScript</h4><p>Memahami dasar interaktivitas website.</p><span class="tag learn">Currently Learning</span></article>
+      <article class="card rv"><svg class="ic big-ic"><use href="#i-cpu"/></svg><h4>C++</h4><p>Memahami dasar pemrograman.</p><span class="tag">Basic</span></article>
+      <article class="card rv"><svg class="ic big-ic"><use href="#i-branch"/></svg><h4>GitHub</h4><p>Memahami dasar penyimpanan dan publikasi proyek website.</p><span class="tag">Basic</span></article>
+    </div>
+
+    <h3 class="sub rv">Soft Skills</h3>
+    <ul class="grid soft">
+      <li class="rv"><svg class="ic"><use href="#i-bulb"/></svg><div><strong>Logical Thinking</strong><span>Menyusun langkah berpikir yang runtut dan masuk akal.</span></div></li>
+      <li class="rv"><svg class="ic"><use href="#i-chat"/></svg><div><strong>Communication</strong><span>Menyampaikan ide dengan jelas dan terbuka.</span></div></li>
+      <li class="rv"><svg class="ic"><use href="#i-team"/></svg><div><strong>Teamwork</strong><span>Bekerja sama dan menghargai peran setiap anggota.</span></div></li>
+      <li class="rv"><svg class="ic"><use href="#i-check"/></svg><div><strong>Responsibility</strong><span>Menyelesaikan tugas sesuai tanggung jawab.</span></div></li>
+      <li class="rv"><svg class="ic"><use href="#i-clock"/></svg><div><strong>Discipline</strong><span>Menjaga konsistensi dan ketepatan waktu belajar.</span></div></li>
+      <li class="rv"><svg class="ic"><use href="#i-refresh"/></svg><div><strong>Adaptability</strong><span>Menyesuaikan diri dengan lingkungan dan teknologi baru.</span></div></li>
+      <li class="rv"><svg class="ic"><use href="#i-puzzle"/></svg><div><strong>Problem Solving</strong><span>Menguraikan masalah dan mencari solusinya.</span></div></li>
+      <li class="rv"><svg class="ic"><use href="#i-book"/></svg><div><strong>Continuous Learning</strong><span>Terus belajar dan berlatih secara mandiri.</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= ACHIEVEMENT (hanya SATU kartu) ================= -->
+<section class="sec" id="achievement" aria-labelledby="ach-t">
+  <div class="wrap">
+    <h2 id="ach-t" class="rv">Achievement</h2>
+    <article class="ach rv">
+      <div class="ach-main">
+        <svg class="ic ach-ic" aria-hidden="true"><use href="#i-trophy"/></svg>
+        <p class="top">TOP 10</p>
+        <h3>Economic &amp; Banking Olympiad XI</h3>
+        <ul class="meta">
+          <li><b>Tahun</b> 2024</li>
+          <li><b>Penyelenggara</b> Universitas Tanjungpura</li>
+        </ul>
+        <p>Masuk 10 besar dalam kompetisi Economic &amp; Banking Olympiad XI yang diselenggarakan oleh Universitas Tanjungpura pada tahun 2024.</p>
+      </div>
+      <!-- Tempat foto/sertifikat: simpan file sebagai assets/sertifikat.jpg. Jika belum ada, kotak ini tampil sebagai placeholder. -->
+      <figure class="proof">
+        <img src="assets/sertifikat.jpg" alt="Sertifikat Top 10 Economic & Banking Olympiad XI" onerror="this.remove()">
+        <figcaption>Tempat foto atau sertifikat<br><small>assets/sertifikat.jpg</small></figcaption>
+      </figure>
+    </article>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="sec alt" id="contact" aria-labelledby="contact-t">
+  <div class="wrap">
+    <h2 id="contact-t" class="rv">Contact</h2>
+    <div class="contact-grid">
+      <ul class="links rv">
+        <li><a href="mailto:26051204196@mhs.unesa.ac.id"><svg class="ic"><use href="#i-mail"/></svg><span>Email<small>26051204196@mhs.unesa.ac.id</small></span></a></li>
+        <li><a href="https://www.linkedin.com/in/fakhri-azka-ritonga-4ba391432" target="_blank" rel="noopener noreferrer"><svg class="ic"><use href="#i-in"/></svg><span>LinkedIn<small>fakhri-azka-ritonga</small></span></a></li>
+        <!-- GANTI "USERNAME-ANDA" dengan username GitHub asli Anda -->
+        <li><a href="https://github.com/USERNAME-ANDA" target="_blank" rel="noopener noreferrer"><svg class="ic"><use href="#i-branch"/></svg><span>GitHub<small>github.com/USERNAME-ANDA</small></span></a></li>
+        <li><a href="assets/CV-Fakhri-Azka-Ritonga.pdf" target="_blank" rel="noopener noreferrer"><svg class="ic"><use href="#i-file"/></svg><span>CV / Resume<small>Lihat atau unduh PDF</small></span></a></li>
+      </ul>
+
+      <form class="card form rv" id="form" novalidate>
+        <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required><p class="err" id="e-name" role="alert"></p></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><p class="err" id="e-email" role="alert"></p></div>
+        <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required></textarea><p class="err" id="e-message" role="alert"></p></div>
+        <button class="btn primary" type="submit">Send Message</button>
+        <p class="status" id="status" role="status"></p>
+      </form>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <p><strong>Fakhri Azka Ritonga</strong><br>S1 Teknik Informatika, Universitas Negeri Surabaya &copy; <span id="year">2026</span></p>
+    <nav aria-label="Navigasi footer">
+      <a href="#home">Home</a><a href="#about">About Me</a><a href="#skills">What I Can Do</a><a href="#achievement">Achievement</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
